@@ -1,0 +1,37 @@
+/* ใช้ฟอนต์ Itim เฉพาะในตาราง */
+table {
+  font-family: 'Itim', sans-serif;
+}
+
+html,
+body {
+  font-family: 'Itim', sans-serif;
+}
+
+
+/* ปรับขนาดของช่องจำนวน */
+input[name^="quantity"] {
+  width: 100%;
+  text-align: center;
+}
+
+/* ปรับขนาดของช่องรายการยืม */
+select[name^="item"] {
+  width: 100%;
+}
+
+/* ปรับขนาดของตารางให้พอดีกับเนื้อหา */
+table {
+  width: 100%;
+}
+
+/* ปรับความกว้างของคอลัมน์รายการยืม */
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 60%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 20%;
+}
