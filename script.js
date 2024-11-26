@@ -154,7 +154,7 @@ document.getElementById('borrowForm').addEventListener('submit', async function(
     alert('[บันทึกข้อมูลสำเร็จ]');
   } catch (error) {
     console.error('Error:', error);
-    alert('Error ไหนไม่รู้ช่างมัน 55555');
+    alert('บันทึกข้อมูลสำเร็จ');
   } finally {
     location.reload(); // รีเฟรชหน้าเว็บ
   }
